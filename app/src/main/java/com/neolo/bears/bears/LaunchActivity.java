@@ -21,7 +21,7 @@ public class LaunchActivity extends BaseActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(LaunchActivity.this,MainActivity.class);
+                Intent intent = new Intent(LaunchActivity.this,GuideActivity.class);
                 startActivity(intent);
             }
         },2 * 2000);

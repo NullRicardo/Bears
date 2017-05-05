@@ -1,18 +1,17 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!--启动的背景 能在第一显示 防止了启动时间的黑屏问题-->
+    <!--窗体背景，这个背景能在第一时间显示, 避免启动时白屏，黑屏问题-->
     <style name="LaunchTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:background">@drawable/onescreen</item>
         <item name="android:windowFullscreen">true</item>
-        <!--<item name="android:icon">@mipmap/icon</item>-->
     </style>
 
 </resources>
