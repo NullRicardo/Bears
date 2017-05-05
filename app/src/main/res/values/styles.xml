@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--启动的背景 能在第一显示 防止了启动时间的黑屏问题-->
+    <style name="LaunchTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@drawable/onescreen</item>
+        <item name="android:windowFullscreen">true</item>
+        <!--<item name="android:icon">@mipmap/icon</item>-->
+    </style>
+
 </resources>
