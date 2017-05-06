@@ -10,7 +10,7 @@
 
     <!--窗体背景，这个背景能在第一时间显示, 避免启动时白屏，黑屏问题-->
     <style name="LaunchTheme" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:background">@drawable/onescreen</item>
+        <item name="android:background">@drawable/mys</item>
         <item name="android:windowFullscreen">true</item>
     </style>
 
