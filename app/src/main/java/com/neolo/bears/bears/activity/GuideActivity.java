@@ -1,4 +1,4 @@
-package com.neolo.bears.bears;
+package com.neolo.bears.bears.activity;
 
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.neolo.bears.bears.R;
 import com.neolo.bears.bears.adapter.GuidePagerAdapter;
 import com.neolo.bears.bears.base.BaseActivity;
 
@@ -32,8 +33,8 @@ public class GuideActivity extends BaseActivity {
 
         //把引导页加入到集合中
         views.add(inflater.inflate(R.layout.view_guide_01, null));
-        views.add(inflater.inflate(R.layout.view_guide_02, null));
-        views.add(inflater.inflate(R.layout.view_guide_03, null));
+        views.add(inflater.inflate(R.layout.view_guide_01, null));
+        views.add(inflater.inflate(R.layout.view_guide_01, null));
         views.add(inflater.inflate(R.layout.view_guide_04, null));
 
         GuidePagerAdapter guidePagerAdapter = new GuidePagerAdapter(views, this);

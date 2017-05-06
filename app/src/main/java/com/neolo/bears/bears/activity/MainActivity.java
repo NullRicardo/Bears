@@ -1,7 +1,9 @@
-package com.neolo.bears.bears;
+package com.neolo.bears.bears.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.neolo.bears.bears.R;
 
 public class MainActivity extends AppCompatActivity {
 
